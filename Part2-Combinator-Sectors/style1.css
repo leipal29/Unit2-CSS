@@ -36,7 +36,12 @@ body {
    - Add hover effect
 */
 .post-footer a{
-   text-decoration: none
+   text-decoration: none;
+   color: lavenderblush;
+}
+.post-footer a:hover{
+   text-decoration: none;
+   color:darkorchid;
 }
 
 
@@ -61,6 +66,15 @@ body {
    - Add specific styling to the first-level list items
    Hint: Use child selector (>)
 */
+.sidebar>.widget>ul>li{
+   color: mistyrose;
+   border-bottom: 1px solid #ecf0f1;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   margin-bottom: 15px;
+}
+
+
 
 
 /* ==========================================
@@ -89,6 +103,11 @@ body {
    - Give it a bold, slightly larger style
    Hint: Combine multiple selector types
 */
+.main-article > .article-content :first-child{
+   font-size: larger;
+   font-weight: bold;
+
+}
 
 
 /* ==========================================
